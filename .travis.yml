@@ -2,4 +2,8 @@ language: java
 sudo: false
 script: mvn clean verify
 
-
+deploy:
+  provider: heroku
+  api_key:
+    secure: 60729368-25c9-42a4-827d-5bcc7ffa7997
+  app: jh-tennis
