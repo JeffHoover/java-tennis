@@ -102,11 +102,11 @@ public class TennisTest {
         checkAllScores(game);
     }
     
-    @Ignore // TODO - fix implementation sometime
-    @Test
-    public void checkAllScoresTennisGame3WithDifferentPlayerNames() {
-        TennisGame3 game = new TennisGame3("Mary", "Bob");
-        checkAllScores(game);
-    }
+//    @Ignore // TODO - fix implementation sometime
+//    @Test
+//    public void checkAllScoresTennisGame3WithDifferentPlayerNames() {
+//        TennisGame3 game = new TennisGame3("Mary", "Bob");
+//        checkAllScores(game);
+//    }
     
 }
